@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="description" content="WebRTC code samples">
+  <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1, maximum-scale=1">
+  <meta itemprop="description" content="Client-side WebRTC code samples">
+  <meta itemprop="image" content="../../../images/webrtc-icon-192x192.png">
+  <meta itemprop="name" content="WebRTC code samples">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta id="theme-color" name="theme-color" content="#61bad2">
+
+  <base target="_blank">
+
+  <title>BIDEOKONFERENTIZA</title>
+
+  <link rel="icon" sizes="192x192" href="../../../images/webrtc-icon-192x192.png">
+  <link href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="../../../css/main.css">
+  
+  <style>
+    body {
+      --display: flex;
+      height: 100vh;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    video {
+      max-width: calc(35% - 100px);
+      max-height: 325px;
+      margin: 0 50px;
+      align-items: center;
+      box-sizing: border-box;
+      border-radius: 2px;
+      padding: 0;
+      box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+    }
+    .copy {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+    button {
+      align-item: "center";
+    }
+  </style>
+
+</head>
+
+<body style="background-color:#c0edf9;">
+  <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
+  <script src="js/main.js"></script>
+  <script src="script.js"></script>
+  <script src="../../../js/lib/ga.js"></script>
+  <div class="copy">Ongi etorri!</div>
+  <br><br>
+  <div id="container" align="center">
+    <h1 align="center"><a title="WebRTC samples homepage">LEIHOA PARTEKATU</a></h1>
+    <video id="displayLocal" autoplay playsinline muted></video>
+    <video id="displayRemote" autoplay playsinline></video>
+    <br>
+    <button id="startButton" align="center" disabled>Hasi</button>
+    <div id="errorMsg"></div>
+  </div>
+  <br><br> 
+<!--  
+  <div id="container2" align="center">
+    <h1 align="center"><a>BIDEOKONFERENTZIA</a></h1>
+    <video id="localVideo" autoplay muted></video>
+    <video id="remoteVideo" autoplay></video>
+  </div>
+-->
+</body>
+
+<!--<head>
+  <script type='text/javascript' src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  
+  
+  
+  <style>
+    body {
+      display: flex;
+      height: 100vh;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      padding: 0 50px;
+      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    }
+    video {
+      max-width: calc(50% - 100px);
+      margin: 0 50px;
+      box-sizing: border-box;
+      border-radius: 2px;
+      padding: 0;
+      box-shadow: rgba(156, 172, 172, 0.2) 0px 2px 2px, rgba(156, 172, 172, 0.2) 0px 4px 4px, rgba(156, 172, 172, 0.2) 0px 8px 8px, rgba(156, 172, 172, 0.2) 0px 16px 16px, rgba(156, 172, 172, 0.2) 0px 32px 32px, rgba(156, 172, 172, 0.2) 0px 64px 64px;
+    }
+    .copy {
+      position: fixed;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.5);
+    }
+  </style>
+ 
+</head> 
+<body>
+  <div class="copy">Send your URL to a friend to start a video call</div>
+  <video id="localVideo" autoplay muted></video>
+  <video id="remoteVideo" autoplay></video>
+  <script src="script.js"></script>
+</body>-->
+</html>
